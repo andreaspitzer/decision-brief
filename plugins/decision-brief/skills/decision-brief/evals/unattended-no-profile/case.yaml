@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: unattended-no-profile
+expected_outcome: |
+  Claude does not stop to ask whether to attach a profile. It continues with a neutral brief and logs
+  under Gaps that no profile was found and that nobody could be asked.

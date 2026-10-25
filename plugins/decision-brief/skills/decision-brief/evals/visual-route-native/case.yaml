@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: visual-route-native
+expected_outcome: |
+  In Claude Code with the Artifact tool available, Claude chooses route 1 (an artifact) for the visual
+  and does not fall back to an SVG file or a text diagram. No Gaps line about a visual fallback
+  appears.

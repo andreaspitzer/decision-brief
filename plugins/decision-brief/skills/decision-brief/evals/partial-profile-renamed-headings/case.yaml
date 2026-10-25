@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: partial-profile-renamed-headings
+expected_outcome: |
+  Claude reads the attached partial profile. It matches the renamed headings by meaning ("Who calls
+  the shots" as Decider, "Money, time and writing" as Locale and style, "When it is a big deal" as
+  Tier tripwires) and applies their values: decider Siobhán Keane, euros, 24-hour clock, Irish
+  English. Sections the profile lacks (for example sources, record homes, channels and spend route,
+  categories) fall back to neutral and are named under Gaps.
+context:
+  scaffold_script: place-files.sh

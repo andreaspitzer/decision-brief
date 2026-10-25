@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: visual-route-text-only
+expected_outcome: |
+  On a surface that can neither render a visual nor write a file, Claude uses route 3: a text diagram
+  no wider than 80 characters, the matching table, and Mermaid source, plus a Gaps line with the
+  route, the reason and how to see it graphically.
