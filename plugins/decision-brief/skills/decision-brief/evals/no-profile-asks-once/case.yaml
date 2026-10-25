@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: no-profile-asks-once
+expected_outcome: |
+  With no profile anywhere and none named in the chat, the first reply asks once whether to attach a
+  profile or continue without, and writes no brief yet. After the answer "continue without", Claude
+  writes a neutral brief whose Gaps section has a "No profile" line, and does not ask about the
+  profile again.

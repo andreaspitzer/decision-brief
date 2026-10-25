@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: example-profile-not-used
+expected_outcome: |
+  The working directory is the decision-brief repository, which holds the skill's example profile for
+  the fictional Quillmere bakery under assets/. Claude does not treat that example as the active
+  profile: it asks once whether to attach a profile, and after "continue without" writes a neutral
+  brief that uses none of Quillmere's values (Rosa Okafor, CAD, 12-hour clock, Quillmere tripwires).

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: visual-route-terminal
+expected_outcome: |
+  On a plain terminal that can write files but has no native visual, Claude uses route 2: a self-
+  contained SVG file next to the brief, linked from the Visualisation section, plus a Mermaid block in
+  the brief, and a Gaps line naming the route, the reason and how to open the SVG.

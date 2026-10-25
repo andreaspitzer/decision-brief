@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: fallbacks-without-claude-tools
+expected_outcome: |
+  Run as a generic agent with no subagents, no web search, no connected tools and no native visuals,
+  the fallbacks still produce a complete brief: gathering done directly and logged, the expert panel
+  as labelled sequential role passes including a dissenter, the visual as an SVG file plus Mermaid,
+  and every fallback named under Gaps.
