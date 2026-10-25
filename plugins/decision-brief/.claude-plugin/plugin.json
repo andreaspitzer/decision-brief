@@ -1,0 +1,11 @@
+{
+  "name": "decision-brief",
+  "version": "0.1.0",
+  "description": "Turn a pending decision into a decision brief: ask and recommendation first, then context, scenario, a visual, a graded evidence register, a decision matrix and an expert panel with a dissenter.",
+  "author": {
+    "name": "Andreas Pitzer"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/andreaspitzer/decision-brief",
+  "homepage": "https://github.com/andreaspitzer/decision-brief"
+}

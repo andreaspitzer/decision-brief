@@ -1,0 +1,15 @@
+{
+  "name": "andreaspitzer",
+  "description": "Decision Brief: a skill that turns a pending decision into a brief the decider can act on.",
+  "owner": {
+    "name": "Andreas Pitzer"
+  },
+  "plugins": [
+    {
+      "name": "decision-brief",
+      "source": "./plugins/decision-brief",
+      "description": "Turn a pending decision into a decision brief: ask and recommendation first, then context, scenario, a visual, a graded evidence register, a decision matrix and an expert panel with a dissenter.",
+      "category": "Productivity"
+    }
+  ]
+}
