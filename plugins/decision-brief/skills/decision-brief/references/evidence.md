@@ -70,7 +70,7 @@ Columns: # · source (with link) · date and age in days · author · what it sh
 
 Claims elsewhere cite rows as [E3]. Claude's own conclusions are rows too, numbered [I1], with the rows they rest on.
 
-For a query, calculation or measurement Claude wrote and ran, put the full query or command in the register row (a collapsed code block under the table is fine) and say where it ran. For evidence the decider pasted into the chat, the source is "pasted by [decider], [date]".
+For a query, calculation or measurement Claude wrote and ran, put the full query or command in the register row (a collapsed code block under the table is fine) and say where it ran. For evidence pasted into the chat, the source is "pasted by [name], [date]": the person who wrote it, or "the requester" when the chat does not name them.
 
 ## 6 Grading
 

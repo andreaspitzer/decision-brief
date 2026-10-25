@@ -34,7 +34,7 @@ At step 1, look for a profile in this order and use the first one found:
 | 1 | An instruction from the decider in the chat that names a profile |
 | 2 | `decision-brief-profile.md` in the project or repository: project knowledge, the project folder, the repository root or `.claude/` |
 | 3 | A profile file the decider attaches |
-| 4 | None found: ask once, "No decision-brief profile found. Attach one, or continue without?" Attached: use it. Skipped: write a neutral brief and log "No profile" under Gaps |
+| 4 | None found: ask once, "No decision-brief profile found. Attach one, or continue without?" Attached: use it. Skipped: write a neutral brief and log "No profile" under Gaps. If the decider is not named either, ask both in one message: the profile question first, then who decides, with "skip if the profile names the decider" |
 
 Branch files sit next to the profile as `decision-brief-profile.<branch>.md` (for example `decision-brief-profile.people.md`). The files in this skill's `assets/` folder are a starter and an example, never the active profile. An empty profile behaves like no profile, except Claude does not ask. If nobody can answer (for example a scheduled run), do not wait: continue neutral and log it under Gaps.
 

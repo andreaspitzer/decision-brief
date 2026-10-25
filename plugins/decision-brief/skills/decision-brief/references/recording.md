@@ -40,7 +40,7 @@ People decisions: the row shows only "People decision", role and team, never the
 
 | Write | Who |
 |---|---|
-| Open row when a brief is written | Claude alone, where the profile names an index Claude can write to; otherwise Claude drafts it in the chat |
+| Open row when a brief is written | Claude alone, where the profile names an index Claude can write to; otherwise Claude drafts it in the chat, after the evidence register under the heading "Draft index row" |
 | Lapsed status when a deadline passes undecided | Claude alone, under the same condition |
 | Decided row, record-home record, outcome value | Claude drafts, the decider confirms |
 | Rows for people decisions | As the people branch says; without one, a draft in the chat with the people floor applied |

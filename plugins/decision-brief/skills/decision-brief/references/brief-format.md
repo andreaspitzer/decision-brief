@@ -48,6 +48,8 @@ Answer first. Sections 3–6 are called **Setting**; sections 7–9 **Analysis**
 
 Stakeholder positions come only from what real people said or wrote, cited as register rows. If no position is recorded, write "no recorded position" rather than guessing.
 
+Without an index Claude can write to, the draft index row follows the evidence register, below a rule, under the heading "Draft index row". It is not a numbered section.
+
 ## 3 Domain sections
 
 Chosen per decision, not per category: at most two, each with a one-line reason directly under its heading, placed after Setting and before Analysis. Nothing is mandatory.
@@ -82,7 +84,7 @@ Coupled decisions: columns are the viable combinations, not the single options.
 
 | Rule | Detail |
 |---|---|
-| Members | Up to four role archetypes, chosen per decision, each with a one-line reason; labelled as Claude's analysis from that role's viewpoint |
+| Members | Up to four role archetypes plus the dissenter, chosen per decision, each with a one-line reason; labelled as Claude's analysis from that role's viewpoint |
 | How it runs | Preferred: one subagent per role, then a merge. Fallback: sequential role passes in one context, each labelled. A profile may say how its panel runs; the other rules still bind |
 | Real people | Never simulated. What real people said goes in the register as a graded statement |
 | Dissenter | Always present; argues against the recommendation |
